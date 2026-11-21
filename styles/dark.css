@@ -1,0 +1,8 @@
+/* Dark theme surfaces use the designed dark token set from tokens.css. */
+:root[data-theme="dark"] .site-header,
+:root[data-theme="dark"] .tab-bar {
+  background: color-mix(in srgb, var(--surface-raised) 94%, transparent);
+}
+:root[data-theme="dark"] .repair-art {
+  background: radial-gradient(ellipse at 50% 45%, var(--accent-subtle), transparent 58%), var(--surface-raised);
+}

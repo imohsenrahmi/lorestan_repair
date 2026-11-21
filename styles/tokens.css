@@ -1,0 +1,95 @@
+/* Design tokens — palette values preserved exactly from the supplied source. */
+:root {
+  color-scheme: light;
+  --surface: #F4F2EC;
+  --surface-raised: #FFF;
+  --surface-sunken: #EAE8E0;
+  --text-primary: #191D1A;
+  --text-secondary: #555E57;
+  --text-tertiary: #727B74;
+  --border-subtle: #DCDDD5;
+  --border-strong: #A7AEA5;
+  --accent: #A84429;
+  --accent-hover: #913A24;
+  --accent-pressed: #78301D;
+  --accent-subtle: #F4E5DE;
+  --on-accent: #FFF;
+  --success: #28694B;
+  --warning: #80591C;
+  --danger: #A93636;
+  --focus-ring: #B85A3B;
+  --overlay: rgb(12 17 14 / 58%);
+
+  --font-family: "Estedad", "Vazirmatn", "IRANSansX", Tahoma, sans-serif;
+  --font-size-xs: .75rem;
+  --font-size-sm: .875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: clamp(1.5rem, 4vw, 2rem);
+  --font-size-display: clamp(2rem, 6vw, 3.65rem);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --shadow-0: none;
+  --shadow-1: 0 4px 18px rgb(25 29 26 / 7%);
+  --shadow-2: 0 18px 56px rgb(0 0 0 / 24%);
+
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-in-out: cubic-bezier(.65, 0, .35, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+
+  --header-height: 68px;
+  --tab-height: 64px;
+  --content-width: 1200px;
+  --page-gutter: clamp(16px, 4vw, 48px);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --z-header: 30;
+  --z-sticky: 35;
+  --z-tabs: 40;
+  --z-backdrop: 70;
+  --z-sheet: 71;
+  --z-toast: 80;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #111613;
+  --surface-raised: #1A211D;
+  --surface-sunken: #0D120F;
+  --text-primary: #F2F3EE;
+  --text-secondary: #B9C1BA;
+  --text-tertiary: #929D94;
+  --border-subtle: #303B34;
+  --border-strong: #657269;
+  --accent: #F18B63;
+  --accent-hover: #FFA17D;
+  --accent-pressed: #D97550;
+  --accent-subtle: #38251E;
+  --on-accent: #171A17;
+  --success: #82C99F;
+  --warning: #E7BD76;
+  --danger: #F18A8A;
+  --focus-ring: #F18B63;
+  --overlay: rgb(0 0 0 / 66%);
+  --shadow-1: 0 4px 18px rgb(0 0 0 / 22%);
+  --shadow-2: 0 18px 56px rgb(0 0 0 / 48%);
+}
